@@ -1,3 +1,8 @@
 @import url(./blocks/header.css);
 @import url(./blocks/nav.css);
 @import url(./blocks/top-bar.css);
+
+.hero__content {
+  display: flexbox;
+  justify-items: center;
+}

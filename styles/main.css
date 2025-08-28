@@ -2,15 +2,21 @@
 @import url(./blocks/nav.css);
 @import url(./blocks/top-bar.css);
 
+.page, .page__body {
+  margin: 0;
+}
+
 .header {
   display: flex;
   color: aliceblue;
   background-color: black;
   border-radius: 30px;
+  margin: 0 20rem 0 20rem;
+  margin-top: 20px;
 }
 
 .menu__nav {
- flex: 1;
+  flex: 1;
 }
 
 .nav__list {
@@ -19,6 +25,7 @@
   align-items: center;
   width: 100%;
   list-style: none;
+  padding: 0;
 }
 
 .nav__link {
@@ -29,7 +36,7 @@
 }
 
 .hero {
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 .hero__content {

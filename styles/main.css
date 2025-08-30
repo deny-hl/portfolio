@@ -2,14 +2,53 @@
 @import url(./blocks/nav.css);
 @import url(./blocks/top-bar.css);
 
-.page, .page__body {
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+:root {
+  /* Colors */
+  --background-color-dark: #1d1d1d;
+  --background-color-white: #ffffff;
+  --bsckground-color-orange: #FFA500;
+
+  --main-text-white: #F9FAF8;
+  --secondary-text-white: #E5E7EB;
+  --main-text-black: #1F2937;
+
+  /* Typography */
+  --main-text-size: 16px;
+  --hero-main-text-size: 48px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 /* #region header */
 .header {
   display: flex;
-  color: aliceblue;
-  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: #ffffff;
+  background-color: #1d1d1d;
   border-radius: 30px;
   margin: 0 20rem 0 20rem;
   margin-top: 20px;
@@ -45,7 +84,7 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 60vh;
   text-align: center;
 }
 

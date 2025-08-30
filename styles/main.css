@@ -20,15 +20,17 @@
   /* Colors */
   --background-color-dark: #1d1d1d;
   --background-color-white: #ffffff;
-  --bsckground-color-orange: #FFA500;
+  --background-color-orange: #FFA500;
 
   --main-text-white: #F9FAF8;
   --secondary-text-white: #E5E7EB;
   --main-text-black: #1F2937;
+  --header-text-color: #999999;
 
   /* Typography */
   --main-text-size: 16px;
   --hero-main-text-size: 48px;
+  --socondary-text-size: 18px;
 }
 
 *,
@@ -47,11 +49,12 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  color: #ffffff;
-  background-color: #1d1d1d;
+  color: var(--main-text-white);
+  background-color: var(--background-color-dark);
   border-radius: 30px;
   margin: 0 20rem 0 20rem;
   margin-top: 20px;
+  font-size: var(--main-text-size);
 }
 
 .menu__nav {
@@ -68,11 +71,17 @@ body {
 }
 
 .nav__link {
-  color: #1d1d1d;
+  color: var(--main-text-black);
   text-decoration: none;
-  font-size: 18px;
-  color:antiquewhite;
+  font-size: var(--socondary-text-size);
+  color: var(--header-text-color);
 }
+
+.nav__link:hover {
+  color: var(--background-color-orange);
+  text-decoration: underline;
+}
+
 /* #endregion */
 /* #region hero */
 .hero {

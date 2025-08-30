@@ -5,7 +5,7 @@
 .page, .page__body {
   margin: 0;
 }
-
+/* #region header */
 .header {
   display: flex;
   color: aliceblue;
@@ -34,7 +34,8 @@
   font-size: 18px;
   color:antiquewhite;
 }
-
+/* #endregion */
+/* #region hero */
 .hero {
   margin-top: 25px;
 }
@@ -67,3 +68,48 @@
   color: aliceblue;
   margin-right: 10px;
 }
+/* #endregion */
+/* #region cards */
+.offers {
+  background-color: #1d1d1d;
+}
+
+.offers__text {
+  text-align: center;
+  color: aliceblue;
+  padding: 70px 0 40px 0;
+  margin: 0;
+}
+
+.offers__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px
+}
+
+.card {
+  flex: 1;
+  max-width: 300px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.img {
+  height: 70px;
+  padding:0;
+  margin: 10px 0 10px 0;
+}
+
+.hdr {
+  margin: 0;
+  background-color: aliceblue;
+  color: black;
+}
+/* #endregion */

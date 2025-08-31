@@ -29,7 +29,7 @@
 
   /* Typography */
   --main-text-size: 16px;
-  --hero-main-text-size: 48px;
+  --hero-main-text-size: 55px;
   --socondary-text-size: 18px;
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 .hero__title {
-  font-size: 55px;
+  font-size: var(--hero-main-text-size);
 }
 
 .hero__buttons {
@@ -106,25 +106,25 @@ body {
 }
 
 .button {
-  padding: 10px;
+  padding: 15px;
   border-radius: 30px;
   cursor: pointer;
 }
 
 .button__project {
-  background-color: orange;
-  color: aliceblue;
+  background-color: var(--background-color-orange);
+  color: var(--main-text-white);
   margin-right: 10px;
 }
 /* #endregion */
 /* #region cards */
 .offers {
-  background-color: #1d1d1d;
+  background-color: var(--background-color-dark);
 }
 
 .offers__text {
   text-align: center;
-  color: aliceblue;
+  color: var(--secondary-text-white);
   padding: 70px 0 40px 0;
   margin: 0;
 }
@@ -146,7 +146,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: aliceblue;
+  background-color: var(--background-color-white);
 }
 
 .img {
@@ -157,7 +157,7 @@ body {
 
 .hdr {
   margin: 0;
-  background-color: aliceblue;
-  color: black;
+  background-color: var(--background-color-white);
+  color: var(--main-text-black);
 }
 /* #endregion */

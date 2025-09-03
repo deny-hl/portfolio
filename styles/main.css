@@ -162,3 +162,66 @@ body {
   color: var(--main-text-black);
 }
 /* #endregion */
+/* #region project */
+.project__container {
+  display: flex;
+  gap: 10px;
+}
+
+.project__top,
+.buttons__container {
+  flex: 1;
+  padding: 10px;
+}
+
+.project__top {
+  display: flex;
+  justify-content: center;
+}
+
+.project__header {
+font-size: var(--hero-main-text-size);
+}
+
+.buttons__container {
+  display: inline-flex;
+  border: 1px solid #e0e0e0;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 4px;
+  border: 1px solid #e6e6e6;
+  border-radius: 9999px;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.toggle__btn {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  margin: 0;
+  padding: 10px 18px;
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 9999px;
+  color: #333;
+}
+
+.toggle__btn.is-active {
+  background: #FFA500;
+  color: #fff;
+  box-shadow: 0 0 0 1px #FFA500 inset;
+}
+
+.toggle__btn:focus-visible {
+  outline: 2px solid #999;
+  outline-offset: 2px;
+}
+/* #endregion */

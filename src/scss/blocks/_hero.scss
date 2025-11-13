@@ -1,0 +1,72 @@
+@use '../base/variables' as vars;
+@use '../base/mixins' as mixins;
+
+.hero__inner {
+  display: grid;
+  gap: vars.$space-lg;
+  align-items: center;
+}
+
+.hero__content {
+  display: grid;
+  gap: vars.$space-sm;
+}
+
+.hero__eyebrow {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  color: vars.$color-text-muted;
+  font-weight: vars.$font-weight-semibold;
+}
+
+.hero__description {
+  color: vars.$color-text;
+  max-width: 38rem;
+}
+
+.hero__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: vars.$space-xs;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero__tag {
+  padding: 0.35rem 0.9rem;
+  border-radius: vars.$radius-pill;
+  border: 1px solid vars.$color-border;
+  background-color: vars.$color-surface;
+  font-size: 0.875rem;
+  font-weight: vars.$font-weight-semibold;
+  color: vars.$color-text-muted;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: vars.$space-sm;
+}
+
+.hero__aside {
+  @include mixins.card-surface;
+  padding: vars.$space-md;
+}
+
+.hero__note {
+  margin: 0;
+}
+
+@include mixins.respond-to(md) {
+  .hero__inner {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    gap: vars.$space-xl;
+  }
+
+  .hero__aside {
+    justify-self: end;
+    max-width: 24rem;
+  }
+}

@@ -1,0 +1,12 @@
+@use '../base/variables' as vars;
+@use '../base/mixins' as mixins;
+
+.section + .section {
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+@include mixins.respond-to(md) {
+  .section + .section {
+    border-top: none;
+  }
+}

@@ -1,0 +1,63 @@
+@use '../base/variables' as vars;
+@use '../base/mixins' as mixins;
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: vars.$space-2xs;
+  padding: 0.75rem 1.6rem;
+  border-radius: vars.$radius-pill;
+  border: 2px solid transparent;
+  font-weight: vars.$font-weight-semibold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition:
+    color vars.$transition-duration-base vars.$transition-easing-standard,
+    background-color vars.$transition-duration-base vars.$transition-easing-standard,
+    border-color vars.$transition-duration-base vars.$transition-easing-standard,
+    transform vars.$transition-duration-base vars.$transition-easing-standard,
+    box-shadow vars.$transition-duration-base vars.$transition-easing-standard;
+}
+
+.btn:focus-visible {
+  @include mixins.focus-outline;
+}
+
+.btn--primary {
+  background-color: vars.$color-brand;
+  color: vars.$color-text-inverse;
+  box-shadow: vars.$shadow-soft;
+}
+
+.btn--primary:hover,
+.btn--primary:focus-visible {
+  background-color: vars.$color-brand-strong;
+  transform: translateY(-1px);
+  box-shadow: vars.$shadow-hover;
+}
+
+.btn--secondary {
+  background-color: vars.$color-surface;
+  color: vars.$color-text;
+  border-color: vars.$color-brand;
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus-visible {
+  background-color: vars.$color-brand;
+  color: vars.$color-text-inverse;
+}
+
+.btn--ghost {
+  background-color: transparent;
+  color: vars.$color-text;
+  border-color: vars.$color-border;
+}
+
+.btn--ghost:hover,
+.btn--ghost:focus-visible {
+  color: vars.$color-brand;
+  border-color: vars.$color-brand;
+  transform: translateY(-1px);
+}

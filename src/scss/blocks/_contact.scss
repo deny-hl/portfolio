@@ -1,0 +1,49 @@
+@use '../base/variables' as vars;
+@use '../base/mixins' as mixins;
+
+.contact__grid {
+  display: grid;
+  gap: vars.$space-md;
+}
+
+.contact-card {
+  @include mixins.card-surface;
+  padding: vars.$space-md;
+  display: grid;
+  gap: vars.$space-2xs;
+  transition:
+    transform vars.$transition-duration-base vars.$transition-easing-standard,
+    box-shadow vars.$transition-duration-base vars.$transition-easing-standard;
+}
+
+.contact-card:hover,
+.contact-card:focus-within {
+  transform: translateY(-4px);
+  box-shadow: vars.$shadow-hover;
+}
+
+.contact-card__label {
+  margin: 0;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: vars.$color-text-muted;
+}
+
+.contact-card__link {
+  font-size: 1.125rem;
+  font-weight: vars.$font-weight-semibold;
+  color: vars.$color-text;
+  transition: color vars.$transition-duration-base vars.$transition-easing-standard;
+}
+
+.contact-card__link:hover,
+.contact-card__link:focus-visible {
+  color: vars.$color-brand;
+}
+
+@include mixins.respond-to(md) {
+  .contact__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

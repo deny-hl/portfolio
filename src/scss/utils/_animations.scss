@@ -1,0 +1,63 @@
+@use '../base/variables' as vars;
+
+:root {
+  --animate-duration: #{vars.$transition-duration-base};
+  --animate-easing: #{vars.$transition-easing-standard};
+}
+
+[data-scroll] {
+  transition:
+    opacity var(--animate-duration) var(--animate-easing),
+    transform var(--animate-duration) var(--animate-easing);
+}
+
+[data-scroll='fade-up'] {
+  opacity: 0;
+  transform: translateY(18px);
+}
+
+[data-scroll='fade-left'] {
+  opacity: 0;
+  transform: translateX(18px);
+}
+
+[data-scroll].is-visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+[data-scroll-delay='100'] {
+  transition-delay: 100ms;
+}
+
+[data-scroll-delay='120'] {
+  transition-delay: 120ms;
+}
+
+[data-scroll-delay='200'] {
+  transition-delay: 200ms;
+}
+
+[data-scroll-delay='280'] {
+  transition-delay: 280ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --animate-duration: 1ms;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  [data-scroll] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

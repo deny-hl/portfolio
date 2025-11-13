@@ -1,0 +1,21 @@
+@use '../base/variables' as vars;
+@use '../base/mixins' as mixins;
+
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: vars.$space-xs;
+  margin-bottom: vars.$space-md;
+
+  @include mixins.respond-to(md) {
+    max-width: 48rem;
+  }
+}
+
+.section-heading__title {
+  max-width: 40rem;
+}
+
+.section-heading__subtitle {
+  max-width: 46rem;
+}

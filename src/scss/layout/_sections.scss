@@ -4,7 +4,7 @@
 .section-heading {
   display: flex;
   flex-direction: column;
-  gap: vars.$space-xs;
+  gap: vars.$space-2xs;
   margin-bottom: vars.$space-md;
 
   @include mixins.respond-to(md) {
@@ -13,7 +13,7 @@
 }
 
 .section-heading__title {
-  max-width: 40rem;
+  max-width: 42rem;
 }
 
 .section-heading__subtitle {

@@ -13,6 +13,11 @@
   color: vars.$color-text-muted;
 }
 
+.about__paragraph {
+  margin: 0;
+  line-height: 1.7;
+}
+
 @include mixins.respond-to(md) {
   .about__body {
     grid-template-columns: repeat(2, minmax(0, 1fr));

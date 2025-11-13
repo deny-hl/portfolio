@@ -2,7 +2,7 @@
 
 :root {
   --animate-duration: #{vars.$transition-duration-base};
-  --animate-easing: #{vars.$transition-easing-standard};
+  --animate-easing: #{vars.$transition-easing-emphasized};
 }
 
 [data-scroll] {
@@ -27,15 +27,15 @@
 }
 
 [data-scroll-delay='100'] {
-  transition-delay: 100ms;
-}
-
-[data-scroll-delay='120'] {
   transition-delay: 120ms;
 }
 
+[data-scroll-delay='120'] {
+  transition-delay: 160ms;
+}
+
 [data-scroll-delay='200'] {
-  transition-delay: 200ms;
+  transition-delay: 220ms;
 }
 
 [data-scroll-delay='280'] {

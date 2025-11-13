@@ -2,7 +2,7 @@
 @use '../base/mixins' as mixins;
 
 .site-footer {
-  background-color: vars.$color-text;
+  background: linear-gradient(180deg, #131a2c 0%, #0d121f 100%);
   color: vars.$color-text-inverse;
   padding-block: vars.$space-lg;
 }
@@ -17,6 +17,7 @@
   font-size: 0.875rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  opacity: 0.85;
 }
 
 .site-footer__top-link {

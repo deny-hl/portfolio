@@ -11,15 +11,18 @@
   padding: vars.$space-lg vars.$space-md;
   display: grid;
   gap: vars.$space-md;
+  background: linear-gradient(160deg, vars.$color-surface 0%, vars.$color-surface-strong 100%);
   transition:
     transform vars.$transition-duration-base vars.$transition-easing-emphasized,
-    box-shadow vars.$transition-duration-base vars.$transition-easing-emphasized;
+    box-shadow vars.$transition-duration-base vars.$transition-easing-emphasized,
+    border-color vars.$transition-duration-base vars.$transition-easing-standard;
 }
 
 .project-card:hover,
 .project-card:focus-within {
-  transform: translateY(-8px);
+  transform: translateY(-10px);
   box-shadow: vars.$shadow-hover;
+  border-color: rgba(249, 115, 22, 0.28);
 }
 
 .project-card__title {
@@ -33,26 +36,32 @@
 .project-card__tech-list {
   display: flex;
   flex-wrap: wrap;
-  gap: vars.$space-xs;
+  gap: vars.$space-2xs;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
 .project-card__tech-item {
-  padding: 0.35rem 0.85rem;
+  padding: 0.35rem 0.9rem;
   border-radius: vars.$radius-pill;
-  background-color: vars.$color-surface-alt;
-  border: 1px solid vars.$color-border;
+  background-color: rgba(18, 24, 38, 0.05);
+  border: 1px solid rgba(18, 24, 38, 0.08);
   font-size: 0.875rem;
   font-weight: vars.$font-weight-semibold;
-  color: vars.$color-text-muted;
+  color: vars.$color-text-soft;
 }
 
 .project-card__actions {
   display: flex;
   flex-wrap: wrap;
   gap: vars.$space-sm;
+}
+
+@include mixins.respond-to(md) {
+  .projects__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @include mixins.respond-to(lg) {

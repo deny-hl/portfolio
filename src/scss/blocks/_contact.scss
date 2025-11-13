@@ -10,7 +10,8 @@
   @include mixins.card-surface;
   padding: vars.$space-md;
   display: grid;
-  gap: vars.$space-2xs;
+  gap: vars.$space-3xs;
+  background: linear-gradient(180deg, vars.$color-surface 0%, vars.$color-surface-alt 100%);
   transition:
     transform vars.$transition-duration-base vars.$transition-easing-standard,
     box-shadow vars.$transition-duration-base vars.$transition-easing-standard;
@@ -18,20 +19,20 @@
 
 .contact-card:hover,
 .contact-card:focus-within {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   box-shadow: vars.$shadow-hover;
 }
 
 .contact-card__label {
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: vars.$color-text-muted;
+  letter-spacing: 0.2em;
+  color: vars.$color-text-soft;
 }
 
 .contact-card__link {
-  font-size: 1.125rem;
+  font-size: 1.15rem;
   font-weight: vars.$font-weight-semibold;
   color: vars.$color-text;
   transition: color vars.$transition-duration-base vars.$transition-easing-standard;

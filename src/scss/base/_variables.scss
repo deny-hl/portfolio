@@ -4,27 +4,29 @@ $font-weight-medium: 500;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
-$color-background: #f8fafc;
+$color-bg: #f4f6fb;
 $color-surface: #ffffff;
-$color-surface-alt: #f1f5f9;
-$color-surface-accent: rgba(249, 115, 22, 0.08);
+$color-surface-alt: #f0f3fa;
+$color-surface-strong: #ebeff7;
 $color-brand: #f97316;
 $color-brand-strong: #ea580c;
-$color-text: #0f172a;
-$color-text-muted: #475569;
-$color-text-inverse: #e2e8f0;
-$color-border: #e2e8f0;
-$color-border-strong: rgba(15, 23, 42, 0.14);
-$color-shadow: rgba(15, 23, 42, 0.08);
+$color-text: #121826;
+$color-text-muted: #5b6477;
+$color-text-soft: #7b8396;
+$color-text-inverse: #f8fbff;
+$color-border: rgba(18, 24, 38, 0.08);
+$color-border-strong: rgba(18, 24, 38, 0.14);
+$color-shadow: rgba(18, 24, 38, 0.09);
 
-$transition-duration-fast: 150ms;
-$transition-duration-base: 220ms;
-$transition-duration-slow: 320ms;
+$transition-duration-fast: 140ms;
+$transition-duration-base: 240ms;
+$transition-duration-slow: 360ms;
 $transition-easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
 $transition-easing-emphasized: cubic-bezier(0.22, 1, 0.36, 1);
 
-$space-2xs: 0.25rem;
-$space-xs: 0.5rem;
+$space-3xs: 0.25rem;
+$space-2xs: 0.5rem;
+$space-xs: 0.75rem;
 $space-sm: 1rem;
 $space-md: 1.5rem;
 $space-lg: 2.5rem;
@@ -33,14 +35,15 @@ $space-2xl: 6rem;
 $space-3xl: 8rem;
 
 $radius-sm: 0.5rem;
-$radius-md: 0.75rem;
+$radius-md: 0.85rem;
 $radius-lg: 1.25rem;
+$radius-xl: 1.75rem;
 $radius-pill: 999px;
 
-$shadow-soft: 0 10px 35px $color-shadow;
-$shadow-hover: 0 18px 36px rgba(15, 23, 42, 0.16);
+$shadow-soft: 0 14px 40px $color-shadow;
+$shadow-hover: 0 22px 44px rgba(18, 24, 38, 0.16);
 
-$container-max-width: 72rem;
+$container-max-width: 70rem;
 
 $breakpoint-sm: 36rem; // 576px
 $breakpoint-md: 48rem; // 768px

@@ -11,6 +11,7 @@
   padding: vars.$space-lg vars.$space-md;
   display: grid;
   gap: vars.$space-sm;
+  background: linear-gradient(165deg, vars.$color-surface 0%, vars.$color-surface-alt 100%);
   transition:
     transform vars.$transition-duration-base vars.$transition-easing-standard,
     box-shadow vars.$transition-duration-base vars.$transition-easing-standard;
@@ -18,12 +19,12 @@
 
 .skills-card:hover,
 .skills-card:focus-within {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   box-shadow: vars.$shadow-hover;
 }
 
 .skills-card--primary {
-  border-color: vars.$color-brand;
+  border-color: rgba(249, 115, 22, 0.32);
 }
 
 .skills-card__title {
@@ -32,11 +33,26 @@
 
 .skills-card__list {
   display: grid;
-  gap: vars.$space-xs;
+  gap: vars.$space-2xs;
   padding: 0;
   margin: 0;
   list-style: none;
   color: vars.$color-text-muted;
+}
+
+.skills-card__item {
+  display: flex;
+  gap: vars.$space-3xs;
+  align-items: flex-start;
+}
+
+.skills-card__item::before {
+  content: '';
+  margin-top: 0.55em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgba(249, 115, 22, 0.45);
 }
 
 @include mixins.respond-to(md) {

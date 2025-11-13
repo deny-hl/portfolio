@@ -5,7 +5,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: vars.$color-background;
+  background-color: vars.$color-bg;
 }
 
 main {
@@ -13,7 +13,7 @@ main {
 }
 
 .container {
-  width: min(100% - 2.5rem, vars.$container-max-width);
+  width: min(100% - 2 * vars.$space-md, vars.$container-max-width);
   margin-inline: auto;
 }
 
@@ -34,5 +34,5 @@ main {
 }
 
 .section--accent {
-  background: linear-gradient(160deg, vars.$color-surface-accent 0%, vars.$color-surface 70%);
+  background: linear-gradient(160deg, rgba(249, 115, 22, 0.08) 0%, vars.$color-surface 60%);
 }

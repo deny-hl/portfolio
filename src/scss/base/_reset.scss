@@ -35,12 +35,12 @@ ol[role='list'] {
 
 body {
   min-height: 100vh;
-  line-height: 1.6;
+  line-height: 1.7;
   text-rendering: optimizeLegibility;
   font-family: vars.$font-family-primary;
   font-weight: vars.$font-weight-regular;
   color: vars.$color-text;
-  background-color: vars.$color-background;
+  background-color: vars.$color-bg;
 }
 
 a {

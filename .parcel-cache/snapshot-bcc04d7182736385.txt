@@ -1,31 +1,32 @@
-3679
+3683
 60/home/deny/projects/portfolio/dist/portfolio.cf38cea7.js.map1763044629823183584 0
 61/home/deny/projects/portfolio/dist/portfolio.9f367d21.css.map1763044808752828451 0
 60/home/deny/projects/portfolio/dist/portfolio.d4c246eb.js.map1763044590778562823 0
 56/home/deny/projects/portfolio/dist/portfolio.cf38cea7.js1763044629815156526 0
-45/home/deny/projects/portfolio/dist/index.html1763045469189296013 0
+45/home/deny/projects/portfolio/dist/index.html1763248320408651875 0
 84/home/deny/projects/portfolio/dist/Roboto-Italic-VariableFont_wdth,wght.b79064ad.ttf1763044590672572797 0
+60/home/deny/projects/portfolio/dist/portfolio.1904a75d.js.map1763248320415904792 0
 57/home/deny/projects/portfolio/dist/portfolio.4beae8da.css1763045469189296013 0
 56/home/deny/projects/portfolio/dist/portfolio.6528c13b.js1763044808752112486 0
 59/home/deny/projects/portfolio/dist/assets/docs/Denys_CV.pdf1763044808740029385 0
 46/home/deny/projects/portfolio/dist/assets/docs1763044808741051953 1
 41/home/deny/projects/portfolio/dist/assets1763044590665561099 1
 60/home/deny/projects/portfolio/dist/portfolio.6528c13b.js.map1763044808753429693 0
-34/home/deny/projects/portfolio/dist1763045469196497009 1
-60/home/deny/projects/portfolio/src/scss/layout/_sections.scss1763045372457686556 0
-58/home/deny/projects/portfolio/src/scss/layout/_footer.scss1763045382609968420 0
-58/home/deny/projects/portfolio/src/scss/layout/_header.scss1763045276626921226 0
+34/home/deny/projects/portfolio/dist1763248320416134160 1
+60/home/deny/projects/portfolio/src/scss/layout/_sections.scss1763045492097890784 0
+58/home/deny/projects/portfolio/src/scss/layout/_footer.scss1763045492097890784 0
+58/home/deny/projects/portfolio/src/scss/layout/_header.scss1763248258783851667 0
 48/home/deny/projects/portfolio/src/scss/main.scss1763044670070765324 0
-60/home/deny/projects/portfolio/src/scss/blocks/_timeline.scss1763045340831795458 0
+60/home/deny/projects/portfolio/src/scss/blocks/_timeline.scss1763045492096890758 0
 45/home/deny/projects/portfolio/src/scss/blocks1763044439577227026 1
-61/home/deny/projects/portfolio/src/scss/utils/_animations.scss1763045367482547699 0
+61/home/deny/projects/portfolio/src/scss/utils/_animations.scss1763045492097890784 0
 44/home/deny/projects/portfolio/src/scss/utils1763044453173439702 1
-55/home/deny/projects/portfolio/src/scss/base/_reset.scss1763045245879990097 0
-60/home/deny/projects/portfolio/src/scss/base/_typography.scss1763045238364758973 0
-59/home/deny/projects/portfolio/src/scss/base/_utilities.scss1763045459049030065 0
+55/home/deny/projects/portfolio/src/scss/base/_reset.scss1763248273520367800 0
+60/home/deny/projects/portfolio/src/scss/base/_typography.scss1763045492089890577 0
+59/home/deny/projects/portfolio/src/scss/base/_utilities.scss1763045492097890784 0
 43/home/deny/projects/portfolio/src/scss/base1763044332341528019 1
 44/home/deny/projects/portfolio/src/index.html1763044686756339581 0
-56/home/deny/projects/portfolio/src/js/scrollAnimations.js1763044712384043792 0
+56/home/deny/projects/portfolio/src/js/scrollAnimations.js1763248263079297141 0
 56/home/deny/projects/portfolio/src/js/navActiveSection.js1763044709622873041 0
 58/home/deny/projects/portfolio/src/assets/docs/Denys_CV.pdf1763042707579348231 0
 74/home/deny/projects/portfolio/src/assets/images/cards/performance-card.svg1756591945686887700 0
@@ -169,7 +170,7 @@
 64/home/deny/projects/portfolio/node_modules/node-releases/LICENSE1763044076570275846 0
 81/home/deny/projects/portfolio/node_modules/node-releases/data/processed/envs.json1763044076610276538 0
 71/home/deny/projects/portfolio/node_modules/node-releases/data/processed1763044076595276279 1
-57/home/deny/projects/portfolio/src/scss/blocks/_about.scss1763045304161736185 0
+57/home/deny/projects/portfolio/src/scss/blocks/_about.scss1763045492096890758 0
 61/home/deny/projects/portfolio/node_modules/node-releases/data1763044076628276850 1
 56/home/deny/projects/portfolio/node_modules/node-releases1763044076639277041 1
 73/home/deny/projects/portfolio/node_modules/detect-libc/bin/detect-libc.js1763044076630276885 0
@@ -259,7 +260,7 @@
 61/home/deny/projects/portfolio/node_modules/chokidar/README.md1763044076655277318 0
 63/home/deny/projects/portfolio/node_modules/json5/dist/index.mjs1763044076711278288 0
 62/home/deny/projects/portfolio/node_modules/json5/dist/index.js1763044076620276712 0
-59/home/deny/projects/portfolio/src/scss/blocks/_contact.scss1763045349338037117 0
+59/home/deny/projects/portfolio/src/scss/blocks/_contact.scss1763248308197263905 0
 61/home/deny/projects/portfolio/node_modules/json5/package.json1763044076685277837 0
 59/home/deny/projects/portfolio/node_modules/json5/lib/cli.js1763044076589276175 0
 45/home/deny/projects/portfolio/src/assets/docs1763044096127613358 1
@@ -406,7 +407,7 @@
 74/home/deny/projects/portfolio/node_modules/caniuse-lite/data/regions/SN.js1763044077341289197 0
 74/home/deny/projects/portfolio/node_modules/caniuse-lite/data/regions/RE.js1763044077303572517 0
 74/home/deny/projects/portfolio/node_modules/caniuse-lite/data/regions/RU.js1763044077312578831 0
-59/home/deny/projects/portfolio/src/scss/base/_variables.scss1763045226020376224 0
+59/home/deny/projects/portfolio/src/scss/base/_variables.scss1763045492089890577 0
 77/home/deny/projects/portfolio/node_modules/lmdb/dependencies/lz4/lib/Makefile1763044076738278755 0
 74/home/deny/projects/portfolio/node_modules/caniuse-lite/data/regions/VE.js1763044077506538970 0
 74/home/deny/projects/portfolio/node_modules/caniuse-lite/data/regions/DJ.js1763044077029329803 0
@@ -1418,7 +1419,7 @@
 81/home/deny/projects/portfolio/node_modules/@swc/helpers/esm/_wrap_native_super.js1763044076942909431 0
 76/home/deny/projects/portfolio/node_modules/type-fest/source/stringified.d.ts1763044076743278842 0
 93/home/deny/projects/portfolio/node_modules/@swc/helpers/src/_define_enumerable_properties.mjs1763044077211551306 0
-42/home/deny/projects/portfolio/package.json1763044716142458125 0
+42/home/deny/projects/portfolio/package.json1763248241030634599 0
 91/home/deny/projects/portfolio/node_modules/@parcel/runtime-js/src/helpers/get-worker-url.js1763044076876281146 0
 88/home/deny/projects/portfolio/node_modules/@parcel/runtime-browser-hmr/lib/HMRRuntime.js1763044076970021723 0
 60/home/deny/projects/portfolio/node_modules/base-x/LICENSE.md1763044076603276417 0
@@ -1462,7 +1463,7 @@
 93/home/deny/projects/portfolio/node_modules/@parcel/core/test/fixtures/config-plugin-not-found1763044077173853310 1
 83/home/deny/projects/portfolio/node_modules/@swc/helpers/esm/_to_consumable_array.js1763044076938772753 0
 72/home/deny/projects/portfolio/node_modules/@lezer/common/dist/index.d.ts1763044076685277837 0
-56/home/deny/projects/portfolio/src/scss/blocks/_hero.scss1763045297639544704 0
+56/home/deny/projects/portfolio/src/scss/blocks/_hero.scss1763248293399445418 0
 82/home/deny/projects/portfolio/node_modules/@swc/helpers/esm/_async_to_generator.js1763044076856280799 0
 90/home/deny/projects/portfolio/node_modules/@parcel/core/src/requests/BundleGraphRequest.js1763044077235287362 0
 53/home/deny/projects/portfolio/node_modules/sass/types1763044077789927421 1
@@ -1558,7 +1559,7 @@
 55/home/deny/projects/portfolio/node_modules/browserslist1763044076723278496 1
 86/home/deny/projects/portfolio/node_modules/caniuse-lite/data/features/object-values.js1763044077258052524 0
 73/home/deny/projects/portfolio/node_modules/@swc/helpers/cjs/_identity.cjs1763044076760279136 0
-45/home/deny/projects/portfolio/src/js/index.js1763044704490486569 0
+45/home/deny/projects/portfolio/src/js/index.js1763248277948876850 0
 74/home/deny/projects/portfolio/node_modules/caniuse-lite/data/regions/LR.js1763044077186844818 0
 78/home/deny/projects/portfolio/node_modules/@parcel/types-internal/src/Cache.js1763044077333289059 0
 65/home/deny/projects/portfolio/node_modules/commander/package.json1763044076673277630 0
@@ -1612,7 +1613,7 @@
 75/home/deny/projects/portfolio/node_modules/@swc/helpers/_/_write_only_error1763044077185470263 1
 110/home/deny/projects/portfolio/node_modules/node-gyp-build-optional-packages/node_modules/detect-libc/README.md1763044076638277023 0
 69/home/deny/projects/portfolio/node_modules/@parcel/core/src/Parcel.js1763044077302728576 0
-59/home/deny/projects/portfolio/src/scss/blocks/_buttons.scss1763045359181314923 0
+59/home/deny/projects/portfolio/src/scss/blocks/_buttons.scss1763045492097890784 0
 69/home/deny/projects/portfolio/node_modules/@lezer/common/package.json1763044076666277508 0
 103/home/deny/projects/portfolio/node_modules/msgpackr-extract/node_modules/detect-libc/lib/detect-libc.js1763044076605276452 0
 65/home/deny/projects/portfolio/node_modules/@lezer/lr/package.json1763044076654277301 0
@@ -1926,6 +1927,7 @@
 92/home/deny/projects/portfolio/node_modules/@swc/helpers/cjs/_is_native_reflect_construct.cjs1763044076779279465 0
 74/home/deny/projects/portfolio/node_modules/source-map-js/lib/quick-sort.js1763044076636276989 0
 65/home/deny/projects/portfolio/node_modules/@parcel/codeframe/test1763044077220570606 1
+57/home/deny/projects/portfolio/dist/portfolio.721fd041.css1763248320408651875 0
 79/home/deny/projects/portfolio/node_modules/@parcel/watcher/src/watchman/BSER.hh1763044076733278669 0
 84/home/deny/projects/portfolio/node_modules/@parcel/optimizer-css/lib/CSSOptimizer.js1763044076994106033 0
 72/home/deny/projects/portfolio/node_modules/@parcel/profiler/lib/Trace.js1763044077134285613 0
@@ -2157,7 +2159,7 @@
 74/home/deny/projects/portfolio/node_modules/caniuse-lite/data/regions/ST.js1763044077376289803 0
 51/home/deny/projects/portfolio/node_modules/get-port1763044076604276435 1
 77/home/deny/projects/portfolio/node_modules/@parcel/core/test/fixtures/context1763044077500458630 1
-60/home/deny/projects/portfolio/src/scss/blocks/_projects.scss1763045329662475859 0
+60/home/deny/projects/portfolio/src/scss/blocks/_projects.scss1763248251301763013 0
 84/home/deny/projects/portfolio/node_modules/caniuse-lite/data/features/mediasource.js1763044077204547856 0
 86/home/deny/projects/portfolio/node_modules/@swc/helpers/cjs/_await_async_generator.cjs1763044076651277249 0
 60/home/deny/projects/portfolio/node_modules/get-port/index.js1763044076600276365 0
@@ -2168,6 +2170,7 @@
 70/home/deny/projects/portfolio/node_modules/type-fest/source/entry.d.ts1763044076656277335 0
 74/home/deny/projects/portfolio/node_modules/@swc/helpers/cjs/_ts_values.cjs1763044076826147966 0
 103/home/deny/projects/portfolio/node_modules/@parcel/core/test/fixtures/main-format-mismatch/package.json1763044077518821888 0
+61/home/deny/projects/portfolio/dist/portfolio.721fd041.css.map1763248320415904792 0
 56/home/deny/projects/portfolio/node_modules/picomatch/lib1763044076639277041 1
 80/home/deny/projects/portfolio/node_modules/@swc/helpers/src/_read_only_error.mjs1763044077240903032 0
 59/home/deny/projects/portfolio/node_modules/get-port/license1763044076604276435 0
@@ -2392,6 +2395,7 @@
 92/home/deny/projects/portfolio/node_modules/caniuse-lite/data/features/css-descendant-gtgt.js1763044076942909431 0
 91/home/deny/projects/portfolio/node_modules/caniuse-lite/data/features/css-module-scripts.js1763044076970419652 0
 75/home/deny/projects/portfolio/node_modules/@parcel/transformer-json/LICENSE1763044076791279673 0
+56/home/deny/projects/portfolio/dist/portfolio.1904a75d.js1763248320408651875 0
 123/home/deny/projects/portfolio/node_modules/msgpackr-extract/node_modules/node-gyp-build-optional-packages/node-gyp-build.js1763044076609276521 0
 91/home/deny/projects/portfolio/node_modules/@swc/helpers/cjs/_ts_add_disposable_resource.cjs1763044076822280210 0
 85/home/deny/projects/portfolio/node_modules/@swc/helpers/_/_object_spread/package.json1763044077121879836 0
@@ -2933,7 +2937,7 @@
 95/home/deny/projects/portfolio/node_modules/@parcel/core/test/fixtures/library-custom-scopehoist1763044077513292175 1
 87/home/deny/projects/portfolio/node_modules/@swc/helpers/_/_async_generator/package.json1763044076967282722 0
 79/home/deny/projects/portfolio/node_modules/@parcel/core/test/fixtures/bundle.js1763044077217287050 0
-58/home/deny/projects/portfolio/src/scss/blocks/_skills.scss1763045312857990020 0
+58/home/deny/projects/portfolio/src/scss/blocks/_skills.scss1763248310244172673 0
 100/home/deny/projects/portfolio/node_modules/@parcel/core/test/fixtures/invalid-target-source-not-file1763044077509292106 1
 80/home/deny/projects/portfolio/node_modules/node-addon-api/tools/eslint-format.js1763044076723278496 0
 74/home/deny/projects/portfolio/node_modules/@parcel/source-map/dist/wasm.js1763044076721278461 0
@@ -2947,7 +2951,7 @@
 83/home/deny/projects/portfolio/node_modules/@parcel/core/src/requests/PathRequest.js1763044077316913087 0
 91/home/deny/projects/portfolio/node_modules/@swc/helpers/esm/_is_native_reflect_construct.js1763044076909167935 0
 77/home/deny/projects/portfolio/node_modules/@parcel/core/src/PackagerRunner.js1763044077297305664 0
-61/home/deny/projects/portfolio/src/scss/utils/_responsive.scss1763045408708684074 0
+61/home/deny/projects/portfolio/src/scss/utils/_responsive.scss1763045492097890784 0
 79/home/deny/projects/portfolio/node_modules/caniuse-lite/data/features/css-if.js1763044076959461546 0
 72/home/deny/projects/portfolio/node_modules/@parcel/core/src/constants.js1763044077252250062 0
 92/home/deny/projects/portfolio/node_modules/@parcel/transformer-babel/src/BabelTransformer.js1763044076825419287 0
@@ -3117,7 +3121,7 @@
 76/home/deny/projects/portfolio/node_modules/@parcel/utils/src/prettifyTime.js1763044077615011791 0
 84/home/deny/projects/portfolio/node_modules/@parcel/optimizer-swc/lib/SwcOptimizer.js1763044076923281960 0
 70/home/deny/projects/portfolio/node_modules/@parcel/utils/src/stream.js1763044077620468342 0
-58/home/deny/projects/portfolio/src/scss/layout/_layout.scss1763045260052422137 0
+58/home/deny/projects/portfolio/src/scss/layout/_layout.scss1763248287648891066 0
 63/home/deny/projects/portfolio/node_modules/dotenv/lib/main.d.ts1763044076674277647 0
 81/home/deny/projects/portfolio/node_modules/@swc/helpers/src/_class_call_check.mjs1763044077194840916 0
 68/home/deny/projects/portfolio/node_modules/@parcel/utils/src/glob.js1763044077575124450 0

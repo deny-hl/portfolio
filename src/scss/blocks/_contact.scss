@@ -14,13 +14,16 @@
   background: linear-gradient(180deg, vars.$color-surface 0%, vars.$color-surface-alt 100%);
   transition:
     transform vars.$transition-duration-base vars.$transition-easing-standard,
-    box-shadow vars.$transition-duration-base vars.$transition-easing-standard;
+    box-shadow vars.$transition-duration-base vars.$transition-easing-standard,
+    border-color vars.$transition-duration-base vars.$transition-easing-standard,
+    scale vars.$transition-duration-base vars.$transition-easing-standard;
 }
 
 .contact-card:hover,
 .contact-card:focus-within {
-  transform: translateY(-6px);
+  transform: translateY(-6px) scale(1.02);
   box-shadow: vars.$shadow-hover;
+  border-color: rgba(249, 115, 22, 0.28);
 }
 
 .contact-card__label {

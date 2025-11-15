@@ -28,10 +28,6 @@ const initScrollAnimations = () => {
   if (!observer) return;
 
   document.querySelectorAll('[data-scroll]').forEach((element) => {
-    const delay = element.getAttribute('data-scroll-delay');
-    if (delay) {
-      element.style.transitionDelay = `${parseInt(delay, 10)}ms`;
-    }
     observer.observe(element);
   });
 };

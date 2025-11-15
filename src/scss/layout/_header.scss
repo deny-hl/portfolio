@@ -65,7 +65,21 @@
   height: 2px;
   background-color: vars.$color-text;
   border-radius: vars.$radius-pill;
-  transition: transform vars.$transition-duration-fast vars.$transition-easing-standard;
+  transition: 
+    transform vars.$transition-duration-fast vars.$transition-easing-emphasized,
+    opacity vars.$transition-duration-fast vars.$transition-easing-emphasized;
+}
+
+.site-header__toggle[aria-expanded='true'] .site-header__toggle-bar:nth-child(1) {
+  transform: translateY(0.5rem) rotate(45deg);
+}
+
+.site-header__toggle[aria-expanded='true'] .site-header__toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.site-header__toggle[aria-expanded='true'] .site-header__toggle-bar:nth-child(3) {
+  transform: translateY(-0.5rem) rotate(-45deg);
 }
 
 .nav {
@@ -83,20 +97,21 @@
   box-shadow: vars.$shadow-soft;
   opacity: 0;
   visibility: hidden;
-  transform: translateY(-10px);
+  transform: translateY(-10px) scale(0.95);
   transition:
-    opacity vars.$transition-duration-base vars.$transition-easing-standard,
-    transform vars.$transition-duration-base vars.$transition-easing-standard,
+    opacity vars.$transition-duration-base vars.$transition-easing-emphasized,
+    transform vars.$transition-duration-base vars.$transition-easing-emphasized,
     visibility 0s linear vars.$transition-duration-base;
+  backdrop-filter: blur(20px);
 }
 
 .nav.is-open {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateY(0) scale(1);
   transition:
-    opacity vars.$transition-duration-base vars.$transition-easing-standard,
-    transform vars.$transition-duration-base vars.$transition-easing-standard,
+    opacity vars.$transition-duration-base vars.$transition-easing-emphasized,
+    transform vars.$transition-duration-base vars.$transition-easing-emphasized,
     visibility 0s;
 }
 

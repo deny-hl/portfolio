@@ -19,9 +19,14 @@ main {
 
 .section {
   padding-block: vars.$space-xl;
+  position: relative;
 
   @include mixins.respond-to(md) {
     padding-block: vars.$space-2xl;
+  }
+
+  @include mixins.respond-to(lg) {
+    padding-block: vars.$space-3xl;
   }
 }
 

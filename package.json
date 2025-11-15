@@ -4,8 +4,8 @@
   "description": "Preview Link: https://deny-hl.github.io/portfolio/",
   "scripts": {
     "dev": "parcel src/index.html --open",
-    "build": "parcel build src/index.html",
-    "preview": "parcel serve src/index.html"
+    "build": "parcel build src/index.html --dist-dir dist",
+    "preview": "parcel serve dist/index.html"
   },
   "keywords": [],
   "author": "",

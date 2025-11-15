@@ -15,12 +15,13 @@
   transition:
     transform vars.$transition-duration-base vars.$transition-easing-emphasized,
     box-shadow vars.$transition-duration-base vars.$transition-easing-emphasized,
-    border-color vars.$transition-duration-base vars.$transition-easing-standard;
+    border-color vars.$transition-duration-base vars.$transition-easing-standard,
+    scale vars.$transition-duration-base vars.$transition-easing-emphasized;
 }
 
 .project-card:hover,
 .project-card:focus-within {
-  transform: translateY(-10px);
+  transform: translateY(-10px) scale(1.02);
   box-shadow: vars.$shadow-hover;
   border-color: rgba(249, 115, 22, 0.28);
 }

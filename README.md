@@ -1,50 +1,53 @@
 # Portfolio
 
-Preview Link: https://deny-hl.github.io/portfolio/
+Modern personal portfolio built with Next.js (App Router), TypeScript, and Tailwind CSS.
 
-## Getting Started
+## Quick start
+
+```bash
+pnpm install
+pnpm dev
+```
+
+If you prefer npm:
 
 ```bash
 npm install
 npm run dev
 ```
 
-`npm run dev` starts Parcel in development mode and opens the site in your default browser. Updates to HTML, SCSS, or JS files trigger hot reloads.
+## Scripts
 
-## Available Scripts
+- `dev`: start the development server
+- `build`: production build
+- `start`: run the production server
+- `lint`: run ESLint
+- `format`: run Prettier
 
-- `npm run dev` – start Parcel with live reload.
-- `npm run build` – create a production build in the `dist` directory.
-- `npm run preview` – serve the production build locally for final QA.
+## Customize content
 
-## Project Structure
+Edit these single-source content files:
 
-```
-src/
-├── assets/
-│   ├── docs/         # Resume and downloadable documents
-│   ├── fonts/        # Local web fonts
-│   └── images/       # Static imagery used across the site
-├── js/
-│   ├── index.js              # Bundle entry point
-│   ├── mobileMenu.js         # Accessible mobile navigation
-│   ├── navActiveSection.js   # In-view section tracker for nav links
-│   └── scrollAnimations.js   # IntersectionObserver-powered reveals
-└── scss/
-    ├── base/     # Variables, mixins, resets, typography
-    ├── layout/   # Global layout primitives (header, footer, sections)
-    ├── blocks/   # BEM component styles (hero, skills, projects, etc.)
-    ├── utils/    # Animations and responsive helpers
-    └── main.scss # Root stylesheet importing all partials
-```
+- `content/profile.ts`: name, role, bio, links, home/about/contact/resume/privacy copy
+- `content/projects.ts`: project list, tags, stack, highlights, detail sections
+- `content/experience.ts`: timeline entries
+
+Replace images in `public/images/projects/` and the PDF at `public/resume.pdf`.
 
 ## Deployment
 
-1. Run `npm run build`.
-2. Deploy the generated `dist` folder (e.g., to GitHub Pages).
+This repo is Vercel-ready:
 
-## Notes
+1. Push the repository to GitHub.
+2. Import into Vercel.
+3. Set `NEXT_PUBLIC_SITE_URL` or update `next-sitemap.config.js` with your domain.
+4. Deploy.
 
-- Class naming follows the BEM methodology for maintainability.
-- Animations respect `prefers-reduced-motion` for accessibility.
-- JavaScript modules are vanilla ES modules bundled by Parcel.
+## Notes on best practices
+
+- App Router with server components by default
+- Accessible navigation, skip link, and keyboard-friendly UI
+- SEO metadata, OpenGraph/Twitter cards, JSON-LD
+- next-sitemap for `sitemap.xml` and `robots.txt`
+- Tailwind CSS with responsive, mobile-first layout
+- Theme toggle with system default and SSR-safe hydration

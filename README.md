@@ -36,12 +36,26 @@ Replace images in `public/images/projects/` and the PDF at `public/resume.pdf`.
 
 ## Deployment
 
-This repo is Vercel-ready:
+### GitHub Pages
+
+This repo is configured for GitHub Pages with automatic deployment:
 
 1. Push the repository to GitHub.
-2. Import into Vercel.
-3. Set `NEXT_PUBLIC_SITE_URL` or update `next-sitemap.config.js` with your domain.
-4. Deploy.
+2. Go to your repository Settings → Pages.
+3. Under "Build and deployment", select Source: **GitHub Actions**.
+4. Push to the `main` branch to trigger automatic deployment.
+5. Your site will be available at `https://[username].github.io/[repo-name]`.
+
+The GitHub Actions workflow ([.github/workflows/deploy.yml](.github/workflows/deploy.yml)) automatically builds and deploys on every push to `main`.
+
+### Alternative: Vercel
+
+You can also deploy to Vercel:
+
+1. Remove the `output: "export"` line from [next.config.js](next.config.js).
+2. Change `images.unoptimized` to `formats: ["image/avif", "image/webp"]`.
+3. Import into Vercel.
+4. Set `NEXT_PUBLIC_SITE_URL` or update [next-sitemap.config.js](next-sitemap.config.js) with your domain.
 
 ## Notes on best practices
 

@@ -44,6 +44,13 @@ export function ProjectFilters({ projects }: ProjectFiltersProps) {
           </button>
         ))}
       </div>
+      <p
+        className="text-xs font-medium text-ink-500 dark:text-ink-400"
+        role="status"
+        aria-live="polite"
+      >
+        {filtered.length} {filtered.length === 1 ? "project" : "projects"} found
+      </p>
       <div className="grid gap-6 md:grid-cols-2">
         {filtered.map((project) => (
           <ProjectCard key={project.slug} project={project} />

@@ -23,9 +23,20 @@ export default function HomePage() {
       <Section className="pt-16 sm:pt-20">
         <Container className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div className="space-y-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-ink-500 dark:text-ink-300">
-              {profile.role}
-            </p>
+            <div className="flex items-center gap-4">
+              <div className="relative h-14 w-14 overflow-hidden rounded-full ring-2 ring-ink-200 dark:ring-ink-700">
+                <Image
+                  src="/images/avatar.svg"
+                  alt={profile.name}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+              </div>
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-ink-500 dark:text-ink-300">
+                {profile.role}
+              </p>
+            </div>
             <h1 className="font-display text-4xl font-semibold leading-tight text-ink-900 dark:text-white sm:text-5xl">
               {profile.hero.headline}
             </h1>
